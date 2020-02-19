@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="sub-heading1 ">
+                <h2 class="date-field">Monday, 10th</h2>
+                <span class='task-num'>0 Tasks</span>
+            </div>
+            <div class="sub-heading2">
+                <h3 class="heading-edt-txt">Dinner Check List</h3>
+                <input type="text" class="heading-edit-inp hide-btn">
+                <button class="heading-edt-btn">
+                    <ion-icon name="create-outline"></ion-icon>
+                </button>
+            </div>
+        </div>
+
+        <button class="plus-button">
+            <ion-icon name="add-circle" class="add-icon"></ion-icon>
+        </button>
+
+        <div class="todo-list-area">
+            <!-- <div id="item-div-0" class="list-item">
+                <input type="checkbox" id="" class="check-box">
+                <input type="text" class="hide-btn">
+                <div class="icon-pack">
+                    <button class="edit-btn icon-small">
+                        <ion-icon name="create-outline"></ion-icon>
+                        edit
+                    </button>
+                    <button class="delete-btn icon-small">
+                        <ion-icon name="trash-outline"></ion-icon>
+                        delete
+                    </button>
+                </div>
+            </div> -->
+
+
+            <!-- <div id="item-div-%id%" class="list-item">
+                <input type="checkbox" id="check-%id%" class="check-box">
+                <input id="input-%id%" class="hide-btn" value="%description%" type="text">
+                <div id="input-div-%id%" class="todo-div">%description%</div>
+                <div id="icon-div-%id%" class="icon-pack">
+                    <button id="edit-btn-%id%" class="edit-btn icon-small">
+                        <ion-icon name="create-outline"></ion-icon>
+                    </button>
+                    <button id="cancel-btn-%id%" class="cancel-btn hide-btn icon-small">
+                        <ion-icon name="close-circle-outline"></ion-icon>
+                    </button>
+                    <button id="delete-btn-%id%" class="delete-btn icon-small">
+                        <ion-icon name="trash-outline"></ion-icon>
+                    </button></div>
+            </div> -->
+
+
+        </div>
+
+        <div class="footer">
+            <!-- <textarea class="input-type" placeholder="Enter new item here"></textarea> -->
+            <input type="text" class="input-type" placeholder="Enter new item here" maxlength="25">
+            <input type="button" class="add-button" value="ADD" />
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>

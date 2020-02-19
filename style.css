@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background-color: #beebe9;
+    color: #3b3b3b;
+}
+
+h2, h3 {
+    font-weight: 400;
+}
+
+.container {
+    width: 380px;
+    height: 620px;
+    margin: 15px auto;
+    background-color: #fffdf9;
+    position: relative;
+    border: 1px solid #e5dfdf;
+    border-radius: 15px;
+}
+
+.header {
+    height: 107px;
+    padding: 5px;
+    width: 100%;
+    background-color: #e5dfdf;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.sub-heading1 {
+    position: absolute;
+    top: 10px;
+    padding: 10px;
+}
+
+.sub-heading2 {
+    position: absolute;
+    top: 58px;
+    /* padding: 10px; */
+    height: 30px;
+    margin: 10px;
+    width: 50%;
+}
+
+.date-field {
+    display: inline-block;
+    width: 268px;
+    color: #297ca0;
+}
+
+.heading-edt-txt {
+    display: inline-block;
+}
+
+.heading-edit-inp {
+    display: inline-block;
+    height: 25px;
+}
+
+.heading-edt-btn {
+    border: none;
+    background: none;
+    font-size: 16px;
+    margin-top: 0px;
+    padding: 6px;
+}
+
+.heading-edt-btn:focus {
+    outline: 0;
+}
+
+/**     ICONS       **/
+
+.add-icon {
+    height: 82px;
+    width: 80px;
+    color: #ec0c0c;
+    left: 2px;
+    position: absolute;
+    top: 3px;
+}
+
+.hide-btn {
+    display: none;
+}
+
+.icon-small {
+    margin-left: 10px;
+    background: none;
+    border: none;
+    font-size: 19px;
+    font-weight: 100;
+    color: red;
+    transition: font-size 0.2s;
+}
+
+.icon-small:hover {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.icon-pack {
+    display: inline-block;
+    float: right;
+    margin-top: 9px;
+}
+
+.plus-button {
+    height: 79px;
+    width: 83px;
+    display: inline-block;
+    z-index: 1;
+    left: 288px;
+    top: 61px;
+    position: absolute;
+    background: none;
+    border: none;
+}
+
+.plus-button:focus {
+    outline: 0;
+}
+
+.input-type {
+    width: 98%;
+    margin: 0px auto;
+    display: block;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 5px;
+    background-color: #e5dfdf;
+    padding-bottom: 35px;
+}
+
+.add-button {
+    border-radius: 10px;
+    background-color: #ec0c0c;
+    color: white;
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    top: 81px;
+    left: 292px;
+    border: none;
+}
+
+.todo-label {
+    display: inline-block;
+}
+
+.todo-div {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.todo-input {
+    width: 75%;
+    margin-top: 4px;
+    height: 30px;
+}
+
+.todo-input:focus {
+    outline: 0;
+}
+
+.strike {
+    text-decoration: line-through;
+    color: #e5dfdf;
+    font-weight: 100;
+}
+
+/***      TODO LIST AREA        ***/
+
+.todo-list-area {
+    width: 100%;
+    height: 352px;
+    margin-top: 35px;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.list-item:first-child {
+    border-top: 1px solid #e7e7e7;
+}
+
+.list-item {
+    height: 32px;
+    padding: 5px;
+    border-bottom: 1px solid #e7e7e7;
+    height: 48px;
+}
+
+.footer {
+    height: 125px;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+}
